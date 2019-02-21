@@ -5,10 +5,10 @@ let meninas = ['Mariana', 'Flavia', 'Guilhermina', 'Kathia', 'Giovanna'];
 let casais = [];
 
 for (i = 0; i < meninos.length; i++){
-    for(i = 0; i < meninas.length; i++)
-    casais.push(`${meninos[1]} + ${meninas[i]}`);
-    console.log(casais);
+    for(j = 0; j < meninas.length; j++)
+    casais.push(`${meninos[i]} + ${meninas[j]}`);
 }
+console.log(casais);
 
 
 
